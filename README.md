@@ -22,7 +22,7 @@ order by count(1) desc
 limit 1;
 
 ## Exercise 4 ##
-update `crafty-sound-339022.zones.zones`
+update zones
     set Zone = 'Unknown'
     where Zone in ('NA', 'NV');
 
